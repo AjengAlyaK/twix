@@ -10,11 +10,11 @@
 
 describe('Login spec', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:5173/login');
+    cy.visit('https://twix-ajengs-projects-00ea2727.vercel.app/login');
   });
 
   it('should display login page correctly', () => {
-    cy.visit('http://localhost:5173/login');
+    cy.visit('https://twix-ajengs-projects-00ea2727.vercel.app/login');
 
     cy.get('form').within(() => {
       cy.get('input[placeholder="Email"]').should('be.visible');
