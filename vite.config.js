@@ -7,4 +7,8 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
   },
+  esbuild: {
+    target: 'esnext',
+    platform: 'linux',
+  }
 })
