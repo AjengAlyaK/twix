@@ -27,8 +27,10 @@ const DetailThreadPage = () => {
 
     const onAddComment = ({ threadId, content }) => {
         dispatch(asyncAddComment({ threadId, content })).then(() => {
-            console.log('wlwowlwl: ', threadId);
-            window.location.reload();
+            // window.location.reload();
+            window.alert('Comment added successfully!');
+            // window.history.back();
+            window.location.href = `/threads/${threadId}`;
         }).catch((error) => {
             console.error('Error adding comment:', error);
         });
