@@ -11,11 +11,11 @@
 
 describe('Register spec', () => {
     beforeEach(() => {
-        cy.visit('https://twix-ajengs-projects-00ea2727.vercel.app/register');
+        cy.visit('http://localhost:5173/register');
     });
 
     it('should display register page correctly', () => {
-        cy.visit('https://twix-ajengs-projects-00ea2727.vercel.app/register');
+        cy.visit('http://localhost:5173/register');
         
         cy.get('form').within(() => {
             cy.get('input[placeholder="Name"]').should('be.visible');

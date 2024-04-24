@@ -10,11 +10,11 @@
 
 describe('Login spec', () => {
   beforeEach(() => {
-    cy.visit('https://twix-ajengs-projects-00ea2727.vercel.app/login');
+    cy.visit('http://localhost:5173/login');
   });
 
   it('should display login page correctly', () => {
-    cy.visit('https://twix-ajengs-projects-00ea2727.vercel.app/login');
+    cy.visit('http://localhost:5173/login');
 
     cy.get('form').within(() => {
       cy.get('input[placeholder="Email"]').should('be.visible');
@@ -60,7 +60,7 @@ describe('Login spec', () => {
     cy.get('form').within(() => {
       cy.get('input[placeholder="Email"]').type('hhh@gmail.com');
       cy.get('input[placeholder="Password"]').type('hhhhhh');
-      cy.get('button').contains(/^Login$/).click(); 
+      cy.get('button').contains(/^Login$/).click();
     });
 
     cy.get('h1').contains(/^TwiX$/).should('be.visible');
