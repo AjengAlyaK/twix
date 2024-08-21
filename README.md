@@ -13,7 +13,7 @@ TwiX is a discussion forum app developed as part of a learning journey, integrat
 ### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>API</summary>
-  - [API With Documentation](https://forum-api.dicoding.dev/v1/#/?id=see-detail-thread)
+  - [API](https://forum-api.dicoding.dev/v1/#/?id=see-detail-thread)
 </details>
 
 <details>
