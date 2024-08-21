@@ -10,8 +10,7 @@ const LeaderboadsPage = () => {
         leaderboards = [],
         authUser,
     } = useSelector((states) => states);
-    
-    // const { name } = authUser;
+
     const { name } = authUser || { name: null };
     console.log(typeof(name));
     const dispatch = useDispatch();

@@ -1,5 +1,4 @@
 const api = (() => {
-    // const BASE_URL = 'https://openspace-api.netlify.app/v1';
     const BASE_URL = 'https://forum-api.dicoding.dev/v1';
 
     function getAccessToken() {
@@ -19,10 +18,6 @@ const api = (() => {
     function putAccessToken(token) {
         localStorage.setItem('accessToken', token);
     }
-
-    // function getAccessToken() {
-    //     return localStorage.getItem('accessToken');
-    // }
 
     async function register({ name, email, password }) {
         const response = await fetch(`${BASE_URL}/register`, {

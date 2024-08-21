@@ -56,7 +56,6 @@ function App() {
                 <Route path="/new" element={<AddNewThreadPage />} />
                 <Route path="/threads/:id" element={<DetailThreadPage />} />
                 <Route path="/leaderboards" element={<LeaderboardsPage />} />
-                {/* <Route path="/login" element={<LoginPage />} /> */}
               </>
             ) : (
               <>
