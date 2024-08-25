@@ -3,7 +3,7 @@
   <img src="https://firebasestorage.googleapis.com/v0/b/mostgreen.appspot.com/o/twix-hd.png?alt=media&token=d196903c-40df-4c98-a078-1bf61f15d3b6" alt="Logo" width="100" style="vertical-align: middle;">
 </p>
 
-# TwiX
+# 🍰 TwiX
 
 TwiX is a discussion forum app developed as part of a learning journey, integrating APIs into a React app with Redux, along with testing and deployment using CI/CD methods. This app was completed for submission in the React Expert course by Dicoding.
 
@@ -13,11 +13,13 @@ TwiX is a discussion forum app developed as part of a learning journey, integrat
 ### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>API</summary>
+  
   - https://forum-api.dicoding.dev/v1/#/?id=see-detail-thread
 </details>
 
 <details>
   <summary>Frontend</summary>
+  
   - React
   - Redux
   - CSS
